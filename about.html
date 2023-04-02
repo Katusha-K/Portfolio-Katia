@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!DOCTYPE html>
-    <title>Document</title>
+        <meta name="description" content="Short bio about me. Patricia is a front-end engineer based in Portugal.">
+    <title> About me info - Patricia Pereira</title>
+    
     <html lang="en">
       <head>
         <meta charset="utf-8" />
@@ -36,6 +38,21 @@
         ></script>
 </head>
   <body>
+    <div class="container">
+    <nav class="d-flex justify-content-between">
+      <a href="/" title="Homepage">
+            <img src="images/Shecodes.logo.png" class="logo d-none d-md-block" alt="Patricia logo" />
+          <img src="images/She codes-logo-small.jpg" class="logo d-block d-md-none" alt="Patricia logo" />
+        <ul>
+          <li>
+            <a href="/" title="Homepage"> Home</a></li>
+          <li class="active"><a href="/about.html" title="About Patricia"> About</a></li>
+          <li><a href="/work.html"title="Patricia's work"> Work</a></li>
+          <li><a href="/contact.html"title="Contact Patricia"> Contact</a></li>
+        </a>
+        </ul>
+      </div>
+    </nav>
     <div class="content-container container">
         <div class="row">
         <div class="col-lg-6">
@@ -48,12 +65,43 @@
       everything is well explained, homework and deadlines are good for keep
       focus
     </p>
-    <a href="" class="btn btn-primary">See my projects</a>
+    <a href="/work.html" class="btn btn-primary">See my projects</a>
 </div>
 </div>
      <div class="col-lg-6">
-    <img src="images/Patricia picture.png" alt="" class="img-fluid" />
+    <img src="images/Patricia picture.png" alt="Patricia photo" class="img-fluid" />
     </div>
     </div>
+      <footer class="container">
+        <div class="contact-box d-flex justify-content-between mb-4">
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a href="/contact.html" class="btn btn-primary mt-3" title="Contact Patricia">Contact me</a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-4">
+          <a href="mailto:patricia@gmail.com" class="e-mail-link" title="Email Patricia"
+            >patricia@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center mb-4">
+          <a href="https://wwww.github.com/patricia" target="_blank" title="GitHub Profile"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://wwww.instagram.com/patricia" target="_blank" title="Instagram Profile"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://wwww.facebook.com/patricia" target="_blank" title="Twitter Profile"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </div>
+        <p class="text-center mt-4">This project was coded by Patricia Pereira and it is 
+          <a href="https://github.com/Katusha-K/Portfolio-Katia" 
+          target="_blank">
+         open-sourced</a>👌</p>
+       </footer>
   </body>
 </html>
